@@ -18,3 +18,15 @@ header .container {
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
+.btn-social .btn-outline {
+}
+
+footer span.tulisan {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+footer ul.list {
+	list-style: none;
+}
