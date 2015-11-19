@@ -1,3 +1,10 @@
 @charset "utf-8";
 
+.header-logo{
+	margin-top:0px;
+	height:150%;
+}
 
+.navbar-brand{
+	padding-top:5px;
+}
