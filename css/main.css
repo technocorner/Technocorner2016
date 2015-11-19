@@ -30,3 +30,7 @@ footer span.tulisan {
 footer ul.list {
 	list-style: none;
 }
+
+#Events h2 {
+	margin-bottom: 40px;
+}
