@@ -1,3 +1,7 @@
+$('#footer .icon')
+	.popup({
+	})
+;
 /*
 	Landed by HTML5 UP
 	html5up.net | @n33co
@@ -15,6 +19,7 @@
 	});
 
 	$(function() {
+
 
 		var	$window = $(window),
 			$body = $('body');
