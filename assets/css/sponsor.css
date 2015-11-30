@@ -1,0 +1,59 @@
+
+/*====================================
+=            HOME CLIENTS            =
+====================================*/
+#home-clients {
+	text-align: center;
+	background: #ecf1f5;
+	padding: 90px 0 80px;
+}
+#home-clients h1 {
+	margin-top: 0;
+	color: #486883;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.56em;
+}
+#home-clients h3 {
+	margin: 0;
+}
+#home-clients hr {
+	width: 278px;
+	margin: 17px auto 75px;
+	border-top: solid 2px #D7DEE5;
+}
+#home-clients .clients {
+	padding: 0 7%;
+}
+#home-clients .clients hr {
+	margin: 0;
+	width: 100%;
+	border-top: solid 1px #dce2e9;
+}
+#home-clients .clients span{
+	display: block;
+	float: left;
+	height: 145px;
+	width: 20%;
+	position: relative;
+	border-left: solid 1px #dce2e9;
+}
+#home-clients .clients span.first { border-bottom: none; }
+#home-clients .clients span.last { border-top: none; }
+#home-clients .clients span img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-o-transform: translate(-50%, -50%) scale(0.65);
+	-ms-transform: translate(-50%, -50%) scale(0.65);
+	-moz-transform: translate(-50%, -50%) scale(0.65);
+	-webkit-transform: translate(-50%, -50%) scale(0.65);
+	transform: translate(-50%, -50%) scale(0.65);
+	width: 100%;
+	height: auto;
+}
+#home-clients .triangle-down {
+	top: -56px;
+}
+
+
