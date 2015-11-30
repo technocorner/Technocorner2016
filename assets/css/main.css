@@ -2446,7 +2446,7 @@
 /* Image */
 
 	.image {
-		border-radius: 4px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2456,7 +2456,7 @@
 		.image:before {
 			content: '';
 			display: block;
-			position: absolute;
+			position: relative;
 			left: 0;
 			top: 0;
 			background-image: url("images/overlay.png");
@@ -2466,7 +2466,7 @@
 		}
 
 		.image img {
-			border-radius: 4px;
+			border-radius: 0px;
 			display: block;
 		}
 
@@ -3392,16 +3392,16 @@
 				}
 
 			#banner .content .image {
-				border-radius: 100%;
+				border-radius: 0%;
 				display: inline-block;
-				height: 18em;
+				height: inherit;
 				margin-left: 3em;
 				vertical-align: middle;
 				width: 18em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
+					border-radius: 0%;
 					display: block;
 					width: 100%;
 				}
