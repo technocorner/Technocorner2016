@@ -3397,13 +3397,13 @@
 				height: inherit;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				
 			}
 
 				#banner .content .image img {
 					border-radius: 0%;
 					display: block;
-					width: 100%;
+					width: 80%;
 				}
 
 	body.is-touch #banner {
