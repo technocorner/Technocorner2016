@@ -1,3 +1,13 @@
+#nav .button.special.active > a {
+	color: white !important;
+}
+
+/** Next button in news **/
+#news .goto-next {
+	bottom: -130px;
+}
+
+
 .event-page {
 	padding: 0.2em 0 4em 0;
 }
