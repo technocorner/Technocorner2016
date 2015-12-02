@@ -1,0 +1,22 @@
+{
+  "name": "Technocorner2016",
+  "homepage": "https://github.com/technocorner/Technocorner2016",
+  "authors": [
+    "adhikasp <adhika.setyap@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-address": "*"
+  }
+}
