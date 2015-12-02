@@ -2,6 +2,14 @@ $('#footer .icon')
 	.popup({
 	})
 ;
+
+$('.tabmenu .item')
+	.tab({
+	    history: true,
+	    historyType: 'hash'
+	})
+;
+
 /*
 	Landed by HTML5 UP
 	html5up.net | @n33co
