@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery-address": "*"
+    "jquery-address": "*",
+    "lightbox2": "~2.8.1"
   }
 }
