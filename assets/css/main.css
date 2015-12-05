@@ -59,6 +59,13 @@
     }
 }
 
+/** Hack to make event's tab scrollable on small screen **/
+
+.ui.top.attached.tabular.menu.tabmenu {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 /** Download tab **/
 
 .ui.items>.item>.content> a.header{
