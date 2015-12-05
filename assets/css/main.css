@@ -42,10 +42,19 @@
 	background-color: rgba(255, 255, 255, 0.075);
 }
 
+.head-logo-img {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 736px) {
     
     #banner .content header h2 {
         font-size: 1.5em;
     }
     
+    .head-logo-img {
+        width: 30%;
+    }
 }
