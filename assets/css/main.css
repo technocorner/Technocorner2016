@@ -49,12 +49,23 @@
 }
 
 @media screen and (max-width: 736px) {
-    
+
     #banner .content header h2 {
         font-size: 1.5em;
     }
-    
+
     .head-logo-img {
         width: 30%;
     }
+}
+
+/** Download tab **/
+
+.ui.items>.item>.content> a.header{
+    color: white;
+}
+
+.ui.items>.item>.content>.description > p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.75);
 }
