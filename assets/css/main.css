@@ -24,6 +24,11 @@
     height : auto;
 }
 
+header.major {
+    margin: 0 0 3em 0;
+    position: relative;
+    text-align: center;
+}
 .event-page {
 	padding: 0.2em 0 4em 0;
 }
