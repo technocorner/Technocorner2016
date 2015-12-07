@@ -11,7 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Kontak panitia yang dapat dihubungi.">
     <meta name="author" content="Departemen Teknik Elektro dan Teknologi Informasi UGM">
-
+      
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="../assets/lib/jquery/dist/jquery.js"></script>
+    <script src="../assets/lib/gmaps/gmaps.js"></script>  
+    <script src="../assets/js/contact.js"></script>
+      
     <!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="../assets/lib/semantic/dist/semantic.min.css" />
     <link rel="stylesheet" href="../assets/css/theme.css" />
@@ -50,7 +55,11 @@
             <header class="major">
               <h2>Kontak</h2>
               <p>Technocorner UGM 2016</p>
-              <a href="#" class="image fit"><img src="../img/map.png" alt="" /></a>
+              
+			  <a id="bagian-peta">
+				<div id="gmap"></div>
+			  </a>
+			  
             </header>
 
             <section id="content">
