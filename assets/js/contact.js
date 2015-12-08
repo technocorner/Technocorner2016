@@ -43,7 +43,7 @@ $(document).ready(function() {
     contentString =
     '<h4>Grha Sabha Permana UGM</h4>' +
     '<ul>' +
-        '<li>Lokasi <a href="ns.html" class="link-peta">Seminar Nasional Technocorner</a></li>' +
+        '<li>Lokasi <a href="../semnas/index.html" class="link-peta">Seminar Nasional Technocorner</a></li>' +
     '</ul>';
     map.addMarker({
       lat: -7.769814,
