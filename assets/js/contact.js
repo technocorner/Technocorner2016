@@ -41,19 +41,20 @@ $(document).ready(function() {
     });
 
     contentString =
-    '<h4>Gedung Purna Budaya UGM</h4>' +
+    '<h4>Grha Sabha Permana UGM</h4>' +
     '<ul>' +
         '<li>Lokasi <a href="ns.html" class="link-peta">Seminar Nasional Technocorner</a></li>' +
     '</ul>';
     map.addMarker({
-      lat: -7.771979,
-      lng: 110.3764895,
-      title: 'Gedung Purna Budaya UGM',
+      lat: -7.769814,
+      lng: 110.377834,
+      title: 'Grha Sabha Permana UGM',
       infoWindow: {
           content: contentString
         }
     });
-
+    
+ 
     map.drawOverlay({
         lat: -7.7653235,
         lng: 110.3722794,
