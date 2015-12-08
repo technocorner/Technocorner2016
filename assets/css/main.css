@@ -94,7 +94,7 @@ header.major {
 #gmap a.link-peta, #gmap a.link-peta:hover, #gmap a.link-peta:visited, #gmap a.link-peta:link {
     color: blue;
 }
-header {
+.cheader {
     background-color: transparent;
     height: 85vh;
     transition: 1000ms;
