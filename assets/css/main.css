@@ -106,3 +106,8 @@ header.major {
 .wrapper.style2 {
     background-color: #4F60F1;
 }
+
+/* button text color */
+.wrapper.style2 input[type="submit"].special, .wrapper.style2 input[type="reset"].special, .wrapper.style2 input[type="button"].special, .wrapper.style2 .button.special {
+    background-color: blue;
+}
