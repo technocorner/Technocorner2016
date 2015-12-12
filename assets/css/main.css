@@ -99,3 +99,10 @@ header.major {
     height: 85vh;
     transition: 1000ms;
 }
+
+
+
+/** contact form bg color to blue */
+.wrapper.style2 {
+    background-color: #4F60F1;
+}
