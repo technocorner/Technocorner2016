@@ -1,11 +1,3 @@
-a {
-    color: #4F60F1 !important;
-}
-
-a:hover {
-    color: #3844AB !important;
-}
-
 #nav .button.special.active > a {
 	color: white !important;
 }
