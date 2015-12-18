@@ -1,5 +1,42 @@
+a {
+    color: #04ABFA;
+}
+
+a:hover {
+    color: #04ABFA !important;
+}
+
+input[type="submit"].special, input[type="reset"].special, input[type="button"].special, .button.special {
+    background-color: #1710e0;
+}
+
+input[type="submit"].special:hover, input[type="reset"].special:hover, input[type="button"].special:hover, .button.special:hover {
+    background-color: #000094;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="button"]:hover,
+input[type="button"]:active,
+.button:hover,
+.button:active {
+    box-shadow: inset 0 0 0 1px #1710E0;
+    color: #312AFA !important;
+}
+
 #nav .button.special.active > a {
 	color: white !important;
+}
+
+/** Change underline under header h1 major **/
+header.major:after {
+    background: #1710E0;
+}
+
+.ui.inverted.blue.basic.button:hover {
+    box-shadow: 0 0 0 1px #1710E0 inset !important;
+    color: #312AFA !important;
 }
 
 /** Next button in news **/
@@ -110,4 +147,5 @@ header.major {
 /* button text color */
 .wrapper.style2 input[type="submit"].special, .wrapper.style2 input[type="reset"].special, .wrapper.style2 input[type="button"].special, .wrapper.style2 .button.special {
     background-color: blue;
+    color: white !important;
 }
