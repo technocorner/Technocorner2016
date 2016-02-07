@@ -149,3 +149,9 @@ header.major {
     background-color: blue;
     color: white !important;
 }
+
+/* modal popup content text to white */
+.ui.modal>.content {
+    color: black;
+    font-family: "Arial"
+}

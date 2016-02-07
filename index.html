@@ -75,18 +75,39 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				</header>
 				<div class="box alt">
 					<ul class="alt">
-						<li>Pendaftaran dibuka tanggal 14 Desember 2015. Segera daftarkan dirimu!</li>
-						<div class="ui inverted blue basic button">Detail</div>
-						<div class="ui standard modal">
+						<li class="">
+							Pendaftaran dan pengumpulan karya Software Development Competition diperpanjang hingga 26 Februari 2016<br>
+							<div class="ui inverted blue basic button" id="button-berita-2">Detail</div>
+						</li>
+						<div class="ui standard modal" id="modal-berita-2">
 							<i class="close icon"></i>
 							<div class="header">
-								Latest News
+								Pendaftaran SDC Diperpanjang
 							</div>
 							<div class="content">
-								<div class="ui header">Pendaftaran dibuka tanggal 14 Desember 2015. Segera daftarkan dirimu!</div>
+								Pendaftaran dan pengumpulan karya Software Development Competition diperpanjang hingga 26 Februari 2016. <br>
+								<a href="sdc/" class="ui primary button">Daftar sekarang</a>
 							</div>
 							<div class="actions">
-								<div class="ui black right button">
+								<div class="ui black right button close">
+									Close
+								</div>
+							</div>
+						</div>
+
+						<li class="">
+							Pendaftaran Lomba tanggal 14 Desember 2015. Segera daftarkan dirimu! <br>
+							<div class="ui inverted blue basic button" id="button-berita-1">Detail</div>
+						</li>
+						<div class="ui standard modal" id="modal-berita-1">
+							<i class="close icon"></i>
+							<div class="header">
+								Pembukaan Pendaftaran Technocorner 2016
+							</div>
+							<div class="content">Pendaftaran dibuka tanggal 14 Desember 2015. Segera daftarkan dirimu!
+							</div>
+							<div class="actions">
+								<div class="ui black right button close">
 									Close
 								</div>
 							</div>
@@ -325,17 +346,20 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
 	<script type="text/javascript">
-	$(document)
-	.ready(function() {
-		$('.modal')
-		.modal()
-		;
-		$('.standard.modal')
-		.modal('attach events', '.inverted.blue.basic.button')
-		;
-	})
-	;
+		$(document).ready(function() {
+			$('.modal')
+				.modal()
+			;
+			$('#modal-berita-1')
+				.modal('attach events', '#button-berita-1')
+			;
+			;
+			$('#modal-berita-2')
+				.modal('attach events', '#button-berita-2')
+			;
+		});
 	</script>
 
 	<script type="application/ld+json">
